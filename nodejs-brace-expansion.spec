@@ -9,7 +9,7 @@
 
 Name:		%{?scl_prefix}nodejs-brace-expansion
 Version:	1.1.1
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	Brace expansion as known from sh/bash
 
 License:	MIT
@@ -64,6 +64,9 @@ tape test/*.js
 %{nodejs_sitelib}/%{packagename}
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 1.1.1-3
+- rebuilt
+
 * Tue Dec 01 2015 Tomas Hrcka <thrcka@redhat.com> - 1.1.1-2
 - Enable scl macros
 
